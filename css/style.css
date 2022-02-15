@@ -1,0 +1,465 @@
+            /* ----- Main Css File ----- */
+
+/* ----------
+
+Template  Name: edumodo
+Template url:
+Description:
+Author: Azam Uday
+Author url: https://azamuday.com
+Version:
+
+---------- */
+
+/* ----- Table of Content -----
+        * header
+        * Hero Section
+        * Course section
+        * About section
+        * count section
+        * testmonial secton
+        * Choose section
+        * after footer
+        * footer
+
+ ----- End ----- */
+
+
+
+/* Template Default Css */
+
+
+
+
+/* Start Write css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* ----- header start ----- */
+.header{
+    background-color: #fff;
+    color: #666666 !important;
+}
+.header img{
+    width: 180px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #666666;
+}
+.nav-link {
+    display: block;
+    font-weight: 600;
+    color: #FFA23E;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.head-nav{
+    text-align: right !important;
+}
+.head-nav a{
+    color: #666666;
+    font-size: 16px;
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin: 0 6px;
+}
+.head-nav a:hover{
+    color: #FFA23E !important;
+}
+.head-nav a:before{
+    content:"";
+    height: 3px;
+    width: 0;
+    background: #FFA23E;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.head-nav a:hover:before{
+    width: 100%;
+}
+
+
+/* ----- Hero Section start ----- */
+
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/banner.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* text area design */
+.text-box{
+    text-align: left;
+    padding-top: 150px;
+}
+.text-box h6{
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 4px;
+    color: #FF5421;
+}
+
+.text-box h1{
+    font-size: 70px;
+    line-height: 77px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.text-box p{
+    font-size: 18px;
+    line-height: 29px;
+    color: #fff;
+}
+.main-btn{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color:#FF5421;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+}
+.main-btn:hover{
+    background-color: #f14512;
+}
+
+/* ----- Course section start ----- */
+
+.course{
+    padding: 75px 0;
+    width: 100%;
+    background-color: #FF5421;
+}
+/* icon */
+.icon-course{
+    width: 140px;
+    height: 80px;
+    color: #FF5421;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 50%;
+}
+.icon-course i{
+    font-size: 30px;
+}
+/* text */
+
+.course-text{
+    margin-left: 30px;
+}
+.course-text h3{
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    font-weight: 700;
+}
+.course-text p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* ----- About Section start ----- */
+
+.about{
+    padding: 110px 0;
+}
+.about-sec h6{
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FF5421;
+    font-weight: 600;
+}
+.about-sec h1{
+    font-size: 44px;
+    line-height: 53px;
+    color: #132643;
+    font-weight: 700;
+}
+.about-sec p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #61686E;
+}
+
+
+/* ----- programs section start ----- */
+
+
+.program{
+    padding: 100px 0;
+    background-color: #F5F5F5;
+}
+/* text-box */
+.program-text{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.program-text h6{
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FF5421;
+    font-weight: 600;
+}
+.program-text h1{
+    font-size: 44px;
+    line-height: 44px;
+    color: #132643;
+    font-weight: 800;
+}
+
+/* blog */
+
+.program-blog-1{
+    margin-left: 15px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.blog-img{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.program-blog img{
+    width: 100%;
+    height: auto;
+    transition: 0.5s all ease-in-out;
+}
+.blog-img:hover img{
+    transform: scale(1.5);
+}
+.program-blog-1 h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #132643;
+    padding-top: 18px;
+}
+.program-blog-1 p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #61686E;
+}
+.program-blog-1 a{
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #FF5421;
+    text-decoration: none;
+    font-weight: 600;
+}
+.blog-text{
+    margin-left: 25px;
+}
+
+
+
+/* ----- count start ----- */
+
+.count{
+    padding: 90px 0;
+    background-color: #FF5421;
+}
+.count-col h6{
+    font-size: 44px;
+    line-height: 53px;
+    color: #fff;
+    font-weight: 800;
+}
+.count-col p{
+    font-size: 18px;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+/* ----- testmonial secton start ----- */
+
+.testmonial{
+    padding: 100px 0;
+}
+/* text */
+.test-text{
+    margin-bottom: 70px;
+}
+.test-text h6{
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FF5421;
+    font-weight: 600;
+}
+.test-text h1{
+    font-size: 44px;
+    line-height: 44px;
+    color: #132643;
+    font-weight: 800;
+}
+
+
+.text-con{
+    background-color: #F5F5F5;
+    padding: 30px 25px;
+    margin: 0 15px;
+}
+.text-con i{
+    font-size: 40px;
+    color: #61686E;
+}
+.text-con p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #61686E;
+    padding: 20px 0;
+    position: relative;
+}
+.text-con p:before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #61686E;
+    bottom: 0;
+}
+
+.text-con img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.text-con h5{
+    font-size: 20px;
+    line-height: 24px;
+    color: #132643;
+    font-weight: 600;
+}
+.text-con span{
+    font-size: 14px;
+    line-height: 21px;
+    color: #61686E;
+    font-weight: 600;
+}
+
+/* ------- Choose section start  ----- */
+
+
+.choose{
+    padding: 100px 0;
+    background-color: #F5F5F5;
+}
+.choose img{
+    width: 100%;
+    height: auto;
+}
+.choose h2{
+    font-size: 44px;
+    line-height: 44px;
+    color: #132643;
+    font-weight: 700;
+    padding-top: 70px;
+}
+.c-icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #FF5421;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.c-text h5{
+    font-size: 24px;
+    line-height: 29px;
+    color: #132643;
+    font-weight: 700;
+}
+
+/* ----- after footer start ----- */
+
+.after-f{
+    color: #fff;
+    background-color: #313131;
+}
+.after-f h5{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.after-f p{
+    font-size: 15px;
+    line-height: 22px;
+}
+.con-i-t:hover{
+    color: #FF5421;
+}
+
+.con-3 img{
+    width: 100%;
+}
+.con-insta{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.con-1, .con-2,  .con-3, .con-4{
+    margin: 0 8px;
+}
+
+/* ----- footer ----- */
+
+.footer{
+    color: #fff;
+    background-color: #000;
+    padding: 20px 0;
+}
+.f-1 p{
+    font-weight: 600;
+}
+.f-1 a{
+    color:#FF5421;
+    text-decoration: none;
+}
+.f-2 p{
+    font-weight: 600;
+}
+
+.f-2 a{
+    color:#FF5421;
+    text-decoration: none;
+}
+.f-3 a{
+    color:#FF5421;
+}
+.f-3 i{
+    font-size: 20px;
+    margin: 0 2px;
+}
+
+
+
+
+/* ----- the end ----- */

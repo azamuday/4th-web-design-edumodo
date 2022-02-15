@@ -1,0 +1,169 @@
+/* ***************
+    Responsive Css
+    *************** */
+
+
+    @media screen and (max-width: 576px){
+
+        /* ----- Hero Section start ----- */
+
+
+        .text-box{
+            text-align: center;
+            padding-top: 120px;
+        }
+        .text-box h6{
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 4px;
+        }
+        .text-box h1{
+            font-size: 40px;
+            line-height: 44px;
+        }
+        .text-box p{
+            font-size: 16px;
+        }
+        li {
+            display: list-item;
+            text-align: center;
+        }
+        .navbar-light .navbar-toggler {
+            color: #000;
+            border-color: #000;
+        }
+        .main-btn{
+            padding: 10px 18px;
+        }
+
+
+        /* ----- Course section start ----- */
+
+
+        .course-sm{
+            display: inline-block !important;
+            text-align: center;
+        }
+        .icon-course{
+            width: 70px;
+            height: 70px;
+            padding-top: 20px;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 15px 0;
+        }
+        .icon-course i{
+            font-size: 25px;
+            text-align: center;
+        }
+
+
+
+        /* ----- About Section start ----- */
+
+        .about-all{
+            text-align: center;
+        }
+        .about-sec h6{
+            font-size: 15px;
+            line-height: 15px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        .about-sec h1{
+            font-size: 36px;
+            line-height: 44px;
+        }
+        .about-sec p{
+            margin-top: 35px;
+        }
+
+
+        /* ----- programs section start ----- */
+        .program{
+            padding: 70px 0;
+        }
+        .program-text{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .program-text h6{
+            font-size: 15px;
+            line-height: 15px;
+            letter-spacing: 1px;
+        }
+
+        .program-text h1{
+            font-size: 36px;
+            line-height: 44px;
+        }
+        .program-blog-1{
+            margin-bottom: 25px;
+        }
+
+        /* ----- count section ----- */
+        .count-col{
+            margin-bottom: 40px;
+        }
+
+
+        /* ----- testmonial ----- */
+
+        .testmonial{
+            padding: 80px 0;
+        }
+        .test-text{
+            margin-bottom: 40px;
+        }
+        .test-text h6{
+            font-size: 15px;
+            line-height: 15px;
+            letter-spacing: 1px;
+        }
+        .test-text h1{
+            font-size: 36px;
+            line-height: 36px;
+        }
+        .text-con{
+            margin: 25px 15px;
+        }
+        .text-con i{
+            font-size: 20px;
+        }
+        .text-con p{
+            font-size: 15px;
+        }
+        .text-con h5{
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+
+        /* ----- choose ----- */
+        .choose{
+            padding: 80px 0;
+            text-align: center;
+        }
+        .c-icon{
+            margin-left: 40%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .choose h2{
+            font-size: 36px;
+            line-height: 36px;
+        }
+
+        /* ----- after footer start ----- */
+
+        .con-1, .con-2,  .con-3, .con-4{
+            margin: 25px 10px;
+        }
+
+
+
+    }
+
+
+
+    /* ----- the end ----- */
